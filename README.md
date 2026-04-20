@@ -1,20 +1,28 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🌟 Lumière AI Stil Asistanı
 
-# Run and deploy your AI Studio app
+Lumière, hava durumuna ve kullanıcı tercihlerine göre akıllı kıyafet kombinleri öneren, yapay zeka destekli bir kişisel stil danışmanıdır. 
 
-This contains everything you need to run your app locally.
+Bu proje, **"İş'te Yapay Zeka"** eğitim programı ve **NVIDIA** staj modülü kapsamında, teorik yapay zeka konseptlerini pratiğe dökmek ve prompt engineering (istem mühendisliği) yeteneklerimi geliştirmek amacıyla tasarlanmıştır.
 
-View your app in AI Studio: https://ai.studio/apps/9a8ae217-dd6d-4ae4-bb80-55d42847a5e0
+## 🚀 Uygulamayı Dene
+Uygulamanın çalışan interaktif versiyonuna buradan ulaşabilirsiniz:
+👉 **[Lumière'i Denemek İçin Tıklayın](https://ai.studio/apps/9a8ae217-dd6d-4ae4-bb80-55d42847a5e0)**
 
-## Run Locally
+*(Not: Bu bir geliştirici prototipi olduğu için linke tıkladığınızda Google AI Studio'nun standart güvenlik ekranı çıkabilir. 'Continue to the app' diyerek uygulamayı güvenle test edebilirsiniz.)*
 
-**Prerequisites:**  Node.js
+## 💡 Özellikler
+* **Hava Durumu Entegrasyonu:** Güncel hava durumunu analiz ederek (sıcaklık, koşullar) en uygun kıyafetleri seçer.
+* **Akıllı Gardırop Eşleştirmesi:** Renk, stil ve kategori bazında mantıklı ve estetik kombinler oluşturur.
+* **Kişiselleştirilmiş Yapay Zeka:** Gemini API altyapısı ile doğal ve kullanıcı dostu bir danışmanlık deneyimi sunar.
+
+## 🛠️ Kullanılan Teknolojiler
+* **Google AI Studio & Gemini API**
+* **TypeScript & CSS** (Arayüz ve Veri Modelleme)
+* **Prompt Engineering**
+
+## 📸 Ekran Görüntüleri
+<img width="1338" height="585" alt="NEW" src="https://github.com/user-attachments/assets/9d4adccc-0a11-42f3-8522-29f9e495aa5a" />
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+---
+**Geliştirici:** Sinem Azaklı
